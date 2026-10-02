@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sanjay Gour | Java Backend Developer</title>
+  <meta name="description" content="Portfolio of Sanjay Gour, a Java Backend Developer from Bhopal, India, skilled in Java, Spring Boot, Hibernate, JDBC and SQL.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-float" id="floatBg" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">SG<span>.java</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false"><i></i><i></i><i></i></button>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#java">Java</a>
+      <a href="#experience">Experience</a>
+      <a href="#journey">Journey</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. HERO -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="hello">Hi, I'm <strong>Sanjay Gour</strong></p>
+        <h1><span id="typed"></span><b class="caret"></b></h1>
+        <p class="lead">I am a Java Backend Developer passionate about building reliable, scalable and efficient backend applications.</p>
+        <div class="btns">
+          <a href="#projects" class="btn primary">View My Projects</a>
+          <a href="resume.pdf" download class="btn ghost">Download Resume</a>
+          <a href="#contact" class="btn ghost">Contact Me</a>
+        </div>
+        <p class="meta">Bhopal, India &nbsp;|&nbsp; B.Tech Graduate, 2025 &nbsp;|&nbsp; Java Full Stack Intern</p>
+      </div>
+
+      <div class="editor glass" aria-label="Code window showing a Java class">
+        <div class="editor-bar"><i></i><i></i><i></i><span>Developer.java</span></div>
+        <pre id="code"></pre>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT -->
+    <section id="about">
+      <h2 class="reveal">About Me</h2>
+      <div class="about-grid">
+        <div class="glass reveal">
+          <p>I am a Java Backend Developer from Bhopal who graduated in 2025. I enjoy backend development because it is where logic, data and design come together to make an application actually work.</p>
+          <p>I have a solid base in database development with SQL and MySQL, and I have worked with Hibernate and Spring Boot to build structured, maintainable applications. I am currently a Java Full Stack Intern at TAP Academy, applying these skills in database-driven projects. I like turning ideas into real-world applications, and I approach every problem step by step with a problem-solving mindset.</p>
+          <p>My goal is to start my career as a Java Backend Developer and keep growing through real projects.</p>
+        </div>
+        <ul class="facts reveal">
+          <li class="glass"><span>Role</span>Java Backend Developer</li>
+          <li class="glass"><span>Education</span>Graduated in 2025</li>
+          <li class="glass"><span>Location</span>Bhopal, India</li>
+          <li class="glass"><span>Goal</span>Entry-level Java Backend role</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. SKILLS -->
+    <section id="skills">
+      <h2 class="reveal">Skills</h2>
+      <div class="grid skills" id="skillGrid"></div>
+    </section>
+
+    <!-- 4. PROJECTS -->
+    <section id="projects">
+      <h2 class="reveal">Projects</h2>
+
+      <article class="project glass reveal">
+        <div class="project-visual" aria-hidden="true">
+          <div class="flow"><span>User</span><span>Restaurant</span><span>Menu</span><span>Order</span></div>
+        </div>
+        <div class="project-body">
+          <h3>Food Delivery Web Application</h3>
+          <p>Developed a full-stack food delivery application for users, restaurants, menus, orders and order management. Includes user authentication, a shopping cart, order placement and order history, built with MVC architecture and the DAO design pattern.</p>
+          <ul class="tags"><li>Java</li><li>Servlets</li><li>JSP</li><li>JDBC</li><li>MySQL</li><li>HTML / CSS / JS</li></ul>
+          <div class="btns">
+            <a href="https://github.com/sanjaygour11" target="_blank" rel="noopener" class="btn primary">GitHub</a>
+            <a href="https://your-live-demo-link.com" target="_blank" rel="noopener" class="btn ghost">Live Demo</a>
+          </div>
+          <small class="note">GitHub opens my profile. Live Demo: Coming Soon.</small>
+        </div>
+      </article>
+
+      <article class="project glass reveal">
+        <div class="project-visual" aria-hidden="true">
+          <div class="flow"><span>Auth</span><span>Bus &amp; Routes</span><span>Reservation</span><span>Feedback</span></div>
+        </div>
+        <div class="project-body">
+          <h3>Bus Reservation Portal</h3>
+          <p>Developed a scalable backend application with RESTful APIs for user authentication, bus and route management, ticket reservations and feedback. Uses DTOs, input validation, centralized exception handling and Swagger documentation for a clean, maintainable architecture.</p>
+          <ul class="tags"><li>Java</li><li>Spring Boot</li><li>Spring MVC</li><li>Hibernate</li><li>Spring Data JPA</li><li>MySQL</li><li>REST API</li></ul>
+          <div class="btns">
+            <a href="https://github.com/sanjaygour11" target="_blank" rel="noopener" class="btn primary">GitHub</a>
+            <a href="https://your-live-demo-link.com" target="_blank" rel="noopener" class="btn ghost">Live Demo</a>
+          </div>
+          <small class="note">GitHub opens my profile. Live Demo: Coming Soon.</small>
+        </div>
+      </article>
+    </section>
+
+    <!-- 5. JAVA KNOWLEDGE -->
+    <section id="java">
+      <h2 class="reveal">Java Knowledge</h2>
+      <div class="grid concepts" id="conceptGrid"></div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION -->
+    <section id="experience">
+      <h2 class="reveal">Experience &amp; Education</h2>
+      <article class="job glass reveal">
+        <div class="job-head"><h3>Java Full Stack Intern</h3><span class="date">Mar 2026 &ndash; Present</span></div>
+        <p class="org">TAP Academy, Bengaluru, Karnataka</p>
+        <ul>
+          <li>Developing Java Full Stack applications using Java, Servlets, JSP, JDBC, HTML, CSS, SQL and MySQL.</li>
+          <li>Building responsive web applications following MVC architecture and the DAO design pattern.</li>
+          <li>Strengthening concepts in OOP, Collections, JDBC, SQL and database-driven application development.</li>
+        </ul>
+      </article>
+
+      <div class="grid edu">
+        <article class="glass reveal">
+          <small>Certification</small>
+          <h3>Full Stack Development</h3>
+          <p class="org">TAP Academy</p>
+          <p>Core Java, Advanced Java (JDBC, J2EE, Servlets), Spring, Hibernate, MySQL and frontend development, including Java 8 features and a capstone Online Food Delivery application.</p>
+        </article>
+        <article class="glass reveal">
+          <small>Aug 2021 &ndash; May 2025</small>
+          <h3>B.Tech, Computer Science &amp; Engineering</h3>
+          <p class="org">Truba Institute of Engineering &amp; Information Technology</p>
+          <p>CGPA: 6.9</p>
+        </article>
+        <article class="glass reveal">
+          <small>2020 &ndash; 2021</small>
+          <h3>Higher Secondary Education</h3>
+          <p class="org">Gayatri V M H.S. School, Charnal, Sehore</p>
+          <p>79%</p>
+        </article>
+        <article class="glass reveal">
+          <small>2018 &ndash; 2019</small>
+          <h3>Secondary Education</h3>
+          <p class="org">St. Mary's Residential H.S. School, Galla Mandi</p>
+          <p>76%</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 6. LEARNING JOURNEY -->
+    <section id="journey">
+      <h2 class="reveal">Learning Journey</h2>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
+
+    <!-- 7. RESUME -->
+    <section id="resume">
+      <div class="resume glass reveal">
+        <div>
+          <h2>Resume</h2>
+          <p>View or download my resume for details on my internship, education, skills and projects.</p>
+        </div>
+        <div class="btns">
+          <a href="resume.pdf" target="_blank" rel="noopener" class="btn ghost">View Resume</a>
+          <a href="resume.pdf" download class="btn primary">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACT -->
+    <section id="contact">
+      <h2 class="reveal">Contact</h2>
+      <div class="contact-grid">
+        <form class="glass reveal" id="contactForm" novalidate>
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button type="submit" class="btn primary">Send Message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+        <ul class="links reveal">
+          <li class="glass"><a href="https://github.com/sanjaygour11" target="_blank" rel="noopener"><span>GitHub</span>github.com/sanjaygour11</a></li>
+          <li class="glass"><a href="https://www.linkedin.com/in/sanjaygour9302/" target="_blank" rel="noopener"><span>LinkedIn</span>linkedin.com/in/sanjaygour9302</a></li>
+          <li class="glass"><a href="mailto:sanjaygour9302@gmail.com"><span>Email</span>sanjaygour9302@gmail.com</a></li>
+          <li class="glass"><a href="tel:+919302154010"><span>Phone</span>+91 93021 54010</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="year"></span> Sanjay Gour. Built with HTML, CSS and JavaScript.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
